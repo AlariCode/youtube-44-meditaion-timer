@@ -1,0 +1,103 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #121214;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-fonr-smoothing: grayscale;
+	min-height: 100vh;
+}
+
+:root {
+	--primary: #6C38CC;
+	--anti-accent: #7C7C8A;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	background: #202024;
+	border-radius: 8px;
+	padding: 30px 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.timer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.info {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 160%;
+}
+
+.info input {
+	width: 40px;
+	background: none;
+	border: none;
+	text-align: center;
+	font-weight: 700;
+	color: var(--anti-accent);
+	font-size: 18px;
+	padding: 5px 10px;
+}
+
+.info input::-webkit-outer-spin-button,
+.info input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.info input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.countdown {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.num {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 160px;
+	line-height: 1;
+	background: #29292E;
+	padding: 40px 16px;
+	border-radius: 8px;
+}
+
+.dots {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 160px;
+	color: var(--primary);
+}
+
+.button {
+	background: var(--primary);
+	border: none;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	gap: 10px;
+	padding: 17px;
+	width: 100%;
+	cursor: pointer;
+}
