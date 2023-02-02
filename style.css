@@ -6,7 +6,7 @@ body {
 	justify-content: center;
 	color: white;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-fonr-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
 	min-height: 100vh;
 }
 
